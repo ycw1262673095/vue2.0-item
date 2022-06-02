@@ -1,0 +1,12 @@
+  在文件夹上面使用cmd
+  采用vue create  创建文件名称
+   
+
+
+--legacy-peer-deps   引入依赖报错后面添加
+
+
+
+[Vue warn]: Invalid prop: type check failed for prop “index“. Expected String, got Undefined
+
+当发生这个错误的时候我们应该将 index 的值后面  加上  +”“ 转换成为字符型
